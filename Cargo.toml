@@ -1,9 +1,15 @@
 [package]
 name = "textrs"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["chrisaddy <chris.william.addy@gmail.com>"]
 edition = "2018"
-publish = ["textrs"]
+publish = ["crates-io"]
+license = "MIT"
+description = "natural language processing and tools for working with text"
+categories = ["text-processing"]
+
+[badges]
+travis-ci = {repository = "chrisaddy/textrs"}
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
