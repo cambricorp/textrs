@@ -13,7 +13,7 @@ pub fn token_count(text: &str) -> usize {
 
 #[cfg(test)]
 mod tests {
-    use crate::{tokenize, count};
+    use crate::{tokenize, token_count};
 
     #[test]
     fn test_tokenizer() {
@@ -37,18 +37,18 @@ mod tests {
     #[test]
     fn count_simple_text() {
         let t = "hello, this is some text";
-        assert_eq!(count(t), 5)
+        assert_eq!(token_count(t), 5)
     }
 
     #[test]
     fn count_single_token() {
         let t = "hello";
-        assert_eq!(count(t), 1)
+        assert_eq!(token_count(t), 1)
     }
 
     #[test]
     fn count_empty_string() {
         let t = "";
-        assert_eq!(count(t), 0)
+        assert_eq!(token_count(t), 0)
     }
 }
