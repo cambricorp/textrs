@@ -7,6 +7,8 @@ publish = ["crates-io"]
 license = "MIT"
 description = "natural language processing and tools for working with text"
 categories = ["text-processing"]
+repository = "https://github.com/chrisaddy/textrs"
+homepage = "https://github.com/chrisaddy/textrs"
 
 [badges]
 travis-ci = {repository = "chrisaddy/textrs"}
