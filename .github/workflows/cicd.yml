@@ -9,8 +9,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: rust-grcov
-      uses: actions-rs/grcov@v0.1.4
     - name: Build
       run: cargo build --verbose
     - name: Run tests
